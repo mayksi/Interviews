@@ -31,4 +31,3 @@ def findMaxNonOverlappingMoviesSchedule(movieTimingLists):
 
 if __name__ == "__main__":
     assert  [(1, 5), (7, 10), (13, 14), (16, 20)] == findMaxNonOverlappingMoviesSchedule([(1, 5), (3, 15), (7, 10), (5, 16), (13, 14), (11, 15), (16, 20)])
-
