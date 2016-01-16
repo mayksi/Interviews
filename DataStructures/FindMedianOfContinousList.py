@@ -97,18 +97,5 @@ if __name__ == "__main__":
     cm = ContinousMedian()
     for _ in range(totalNumInStream):
         num = int(fl.readline().strip())
-        # print "num >>> %s" % num
         cm.addIntToHeap(num)
-        # cm.printHeaps()
         print cm.findMedian()
-        # print "<<<<<<<<>>>>>>>>>>"
-
-'''
-94455.0
-57505.0
-20555.0
-36840.0
-53125.0
-
-'''
-
